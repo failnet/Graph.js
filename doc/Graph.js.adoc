@@ -1,0 +1,14 @@
+= Graph.js
+Documentation
+
+== Requirements
+
+* JQuery
+* A brain
+
+== Types
+
+* link:GraphLinear.html[GraphLinear]
+* GraphBar
+* GraphTable
+* GraphPie

@@ -1,0 +1,24 @@
+= GraphLinear
+Linear Graphs :D
+
+== Example
+
+Define Options:
+[source,javascript]
+----
+var options = {
+	x: ['mon', 'tue', 'wed', 'thu', 'fri'], // X Values
+	points: [12, 164, 1000, 45, 982]        // Y Values
+};
+----
+Anything that you do not specify is link:Defaults.html[defaulted] for you.
+
+[source,javascript]
+----
+var linear = new GraphLinear(options); //create object for linear graphs
+linear.init(); //actually create graph
+
+//or if you want to use the jquery plugin:
+$('#main').graphify({obj:options});
+//plugin also has other options that are defaulted if not specified
+----
